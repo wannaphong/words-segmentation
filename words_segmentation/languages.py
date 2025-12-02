@@ -54,7 +54,7 @@ LANGUAGE_SPECS: dict[str, LanguageSpec] = {
         "callback": segment_japanese,
     },
     "Thai": {
-        "scripts": ("Thai"),
+        "scripts": ("Thai",),
         "callback": segment_thai,
     },
     "Default": {
