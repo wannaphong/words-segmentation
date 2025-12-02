@@ -13,6 +13,7 @@ dependencies = [
     "fugashi[unidic-lite]", # For Japanese word segmentation
     "jieba", # For Chinese word segmentation
     "signwriting", # For SignWriting segmentation
+    "pythainlp", # For Thai word segmentation
 ]
 
 [project.optional-dependencies]
