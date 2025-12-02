@@ -15,6 +15,7 @@ from utf8_tokenizer.control import CONTROl_TOKENS_PATTERN
 
 from words_segmentation.chinese import segment_chinese
 from words_segmentation.japanese import segment_japanese
+from words_segmentation.thai import segment_thai
 from words_segmentation.signwriting import segment_signwriting
 
 # Three classes of tokens inside the Default branch:
@@ -51,6 +52,10 @@ LANGUAGE_SPECS: dict[str, LanguageSpec] = {
     "Japanese": {
         "scripts": ("Han", "Hiragana", "Katakana"),
         "callback": segment_japanese,
+    },
+    "Thai": {
+        "scripts": ("Thai"),
+        "callback": segment_thai,
     },
     "Default": {
         "scripts": tuple(),
