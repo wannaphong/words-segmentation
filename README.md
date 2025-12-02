@@ -72,7 +72,8 @@ We implement custom fallback pretoknizers for the following writing systems:
 - [ ] [Scriptio continua](https://en.wikipedia.org/wiki/Scriptio_continua)
 - [ ] [S'gaw Karen alphabet](https://en.wikipedia.org/wiki/S%27gaw_Karen_alphabet)
 - [ ] [Tai Tham script](https://en.wikipedia.org/wiki/Tai_Tham_script)
-- [ ] [Thai script](https://en.wikipedia.org/wiki/Thai_script)
+- [x] [Thai script](https://en.wikipedia.org/wiki/Thai_script) -
+  using [PyThaiNLP](https://github.com/PyThaiNLP/pythainlp)
 - [ ] [Tibetan script](https://en.wikipedia.org/wiki/Tibetan_script)
 - [ ] [Vietnamese alphabet](https://en.wikipedia.org/wiki/Vietnamese_alphabet)
 - [ ] [Western Pwo alphabet](https://en.wikipedia.org/wiki/Western_Pwo_alphabet)
